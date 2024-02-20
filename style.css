@@ -1,0 +1,31 @@
+*{
+    width: 60%;
+    margin: auto;
+    background-color: antiquewhite;
+}
+h1{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    animation-name: slideFromLeft;
+    animation-duration: 1.3s;
+    animation-timing-function: ease in;
+    animation-iteration-count: 1;
+}
+p{
+    animation-name: slideFromLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease in;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideFromLeft{
+    from{
+        transform: translateX(-300%);
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    to{
+        transform: translateY(0);
+        color: rgba(0, 0, 0, 1);
+    }
+}
