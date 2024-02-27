@@ -1,4 +1,4 @@
-/* Sliding Animations */
+/* startingPage Sliding Animations */
 
 @keyframes slideFromLeft{
     from{
@@ -11,6 +11,8 @@
         color: rgba(0, 0, 0, 1);
     }
 }
+
+/* overall Elements styling */
 
 *{
     width: 50%;
@@ -47,5 +49,3 @@ button:hover{
     transform: translateY(-3px);
     transform: scale(1.1);
 }
-
-
